@@ -44,6 +44,17 @@ export const PROJECTS: Project[] = [
     year: "2026",
   },
   {
+    slug: "innovima",
+    name: "Innovima Technologies",
+    category: "Corporate Website · IT Infrastructure",
+    url: "https://innovima.in/",
+    description:
+      "The infrastructure behind modern business — a site for a Bengaluru firm that designs, builds and secures networks, datacenters and digital workplaces, with solution pages and insights.",
+    stack: ["Next.js", "React", "Tailwind CSS", "Vercel"],
+    image: "/projects/innovima.png",
+    year: "2026",
+  },
+  {
     slug: "febel",
     name: "Febel",
     category: "Blockchain Infrastructure",

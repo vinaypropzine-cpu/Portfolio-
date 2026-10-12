@@ -7,6 +7,7 @@ const OUT = path.join(path.dirname(fileURLToPath(import.meta.url)), '../public/p
 const sites = [
   { name: 'glozia', url: 'https://glozia01.vercel.app/' },
   { name: 'spc', url: 'https://spcwebnew.vercel.app/' },
+  { name: 'innovima', url: 'https://innovima.in/' },
 ];
 
 const proxy = process.env.HTTPS_PROXY ? { server: process.env.HTTPS_PROXY } : undefined;

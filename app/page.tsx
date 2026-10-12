@@ -125,7 +125,7 @@ export default function Home() {
 
         {/* ── Work ─────────────────────────────────────────── */}
         <section id="work" className="scroll-mt-24 border-t border-line py-24">
-          <SectionHeading number="01" label="Selected Work" title="Nine products, live in the wild." />
+          <SectionHeading number="01" label="Selected Work" title="Ten products, live in the wild." />
 
           <div className="mt-16">
             <Reveal>
