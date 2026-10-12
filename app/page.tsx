@@ -90,7 +90,7 @@ export default function Home() {
           <Reveal delay={400}>
             <dl className="mt-20 grid grid-cols-2 gap-8 border-t border-line pt-8 sm:grid-cols-4">
               {[
-                ["07", "Products shipped"],
+                [String(PROJECTS.length).padStart(2, "0"), "Products shipped"],
                 ["03", "Core domains"],
                 ["100%", "Built in-house"],
                 [SITE.location.split(",")[0], "Based in"],
@@ -125,7 +125,7 @@ export default function Home() {
 
         {/* ── Work ─────────────────────────────────────────── */}
         <section id="work" className="scroll-mt-24 border-t border-line py-24">
-          <SectionHeading number="01" label="Selected Work" title="Seven products, live in the wild." />
+          <SectionHeading number="01" label="Selected Work" title="Nine products, live in the wild." />
 
           <div className="mt-16">
             <Reveal>

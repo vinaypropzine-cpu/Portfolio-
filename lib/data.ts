@@ -22,6 +22,28 @@ export const PROJECTS: Project[] = [
     year: "2025",
   },
   {
+    slug: "glozia",
+    name: "Glozia",
+    category: "Web Platform · Salon & Spa",
+    url: "https://glozia01.vercel.app/",
+    description:
+      "A unisex salon & ladies spa in Bengaluru — a 3D gold-crown hero, a 254-service menu and WhatsApp booking, built as one codebase for the web, iOS and Android.",
+    stack: ["React Native", "Expo", "Three.js", "Vercel"],
+    image: "/projects/glozia.png",
+    year: "2026",
+  },
+  {
+    slug: "spc",
+    name: "SP Consulting Services",
+    category: "Corporate Website · Engineering",
+    url: "https://spcwebnew.vercel.app/",
+    description:
+      "Structural & MEP consultants, engineered to simplify — a blueprint-styled site with project case studies, an insights blog and an admin panel for photos, testimonials and posts.",
+    stack: ["React", "TypeScript", "Vite", "Vercel Blob"],
+    image: "/projects/spc.png",
+    year: "2026",
+  },
+  {
     slug: "febel",
     name: "Febel",
     category: "Blockchain Infrastructure",
